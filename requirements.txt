@@ -1,0 +1,6 @@
+streamlit>=1.38
+pydantic>=2.6
+openai>=1.40      # used only as an HTTP client for Groq and OpenRouter (both are OpenAI-compatible)
+mcp>=1.2,<2     # only needed for mcp_server.py (v2 renamed FastMCP)
+python-dotenv>=1.0
+pytest>=8.0
